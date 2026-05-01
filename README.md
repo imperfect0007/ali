@@ -16,7 +16,23 @@
 
 **Transparency note:** This dataset includes synthetic rows added to reach \(n=300\). Use this for practice/demo/formatting requirements; do **not** present results as real-world findings unless your institution explicitly allows synthetic augmentation.
 
-### Objective
+### Objectives
+- To investigate the relationship between **self-esteem** and **attachment styles**
+- To investigate the relationship between **self-esteem** and **relationship satisfaction**
+- To investigate the relationship between **attachment styles** and **relationship satisfaction**
+
+### Additional analysis used for these objectives
+- **Correlation analysis** (Pearson and Spearman) between:
+  - `RSES_total` (self-esteem total)
+  - `Attachment_mean` (attachment mean)
+  - `Relationship_approx_mean` (relationship satisfaction; approximate)
+
+**Correlation results (N=300 complete cases)**
+- `RSES_total` vs `Attachment_mean`: Pearson \(r=-0.2412\), p=0.000024 | Spearman \(\rho=-0.2307\), p=0.000055
+- `RSES_total` vs `Relationship_approx_mean`: Pearson \(r=0.1058\), p=0.067305 | Spearman \(\rho=0.0559\), p=0.334155
+- `Attachment_mean` vs `Relationship_approx_mean`: Pearson \(r=-0.0396\), p=0.494590 | Spearman \(\rho=-0.0288\), p=0.619806
+
+### Gender comparison objective (previous section)
 To test whether **Male vs Female** participants differ on:
 - **Self-esteem** (Rosenberg Self‑Esteem Scale; `RSES_total`, `RSES_mean`)
 - **Attachment** (12 attachment statements; `Attachment_mean`)
