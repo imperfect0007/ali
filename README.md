@@ -32,8 +32,8 @@
 - `RSES_total` vs `Relationship_approx_mean`: Pearson \(r=0.1058\), p=0.067305 | Spearman \(\rho=0.0559\), p=0.334155
 - `Attachment_mean` vs `Relationship_approx_mean`: Pearson \(r=-0.0396\), p=0.494590 | Spearman \(\rho=-0.0288\), p=0.619806
 
-### Gender comparison objective (previous section)
-To test whether **Male vs Female** participants differ on:
+### Additional analysis (optional)
+To explore group differences by `Gender` (Male vs Female) on:
 - **Self-esteem** (Rosenberg Self‑Esteem Scale; `RSES_total`, `RSES_mean`)
 - **Attachment** (12 attachment statements; `Attachment_mean`)
 - **Relationship satisfaction** (7 relationship items; `Relationship_approx_mean`)
